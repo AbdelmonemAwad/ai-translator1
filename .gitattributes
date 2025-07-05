@@ -1,0 +1,35 @@
+# Force GitHub to detect this as a Python project
+*.py linguist-language=Python
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Documentation files
+*.md linguist-documentation=true
+docs/* linguist-documentation=true
+
+# Templates are part of the Python web application
+templates/* linguist-language=Python
+static/* linguist-detectable=false
+
+# Project configuration files
+*.toml linguist-language=Python
+*.txt linguist-documentation=true
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# Archive files should be ignored
+*.tar.gz linguist-generated=true
+*.zip linguist-generated=true
+
+# Attached assets from development (screenshots, etc)
+attached_assets/* linguist-generated=true
+
+# Make sure Python files are prioritized
+app.py linguist-language=Python
+main.py linguist-language=Python
+models.py linguist-language=Python
+translations.py linguist-language=Python
+background_tasks.py linguist-language=Python
+process_video.py linguist-language=Python
+database_setup.py linguist-language=Python
